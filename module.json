@@ -1,0 +1,40 @@
+{
+    "name": "dancerarchetype",
+    "title": "PF2e Dancer Archetype",
+    "description": "Foundry implementation for the Dancer archetype",
+    "author": "Archvillain Ediwir",
+    "version": "1.0",
+    "minimumCoreVersion": "9",
+    "compatibleCoreVersion": "9",
+    "scripts": [],
+    "esmodules": [],
+    "styles": [],
+    "languages": [],
+    "url": "https://github.com/Ediwir/dancerarchetype",
+  "manifest": "https://raw.githubusercontent.com/Ediwir/dancerarchetype/master/module.json",
+  "download": "https://github.com/Ediwir/dancerarchetype/archive/refs/heads/main.zip",
+    "packs": [{
+        "label": "Dancer Archetype",
+        "name": "dancer-archetype",
+        "path": "./packs/dancer-archetype.db",
+        "system": "pf2e",
+        "package": "dancerarchetype",
+        "private": false,
+        "type": "Item"
+    }],
+        "flags": {
+  "dancerarchetype": {
+    "pf2e-homebrew": {
+      "ItemTraits": {
+        "Partnered": {
+          "label": "Partnered",
+          "description": "<p>Some abilities include the Partnered trait. You can only gain the benefits of Partnered Archetype Feats if you and your Dance Partner are both alive, conscious, and can see each other. Both you and your Dance Partner can use Partnered abilities.</p>"
+        }
+       }
+      }
+     }
+    },
+    "system": [
+        "pf2e"
+    ]
+}
